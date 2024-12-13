@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*
+ Layout related Styles for Project Pages
+ 
+ Do not add or edit these styles in this file! Edits will result in page malfunctioning !
+ For added stylization create a seperate file and link to html.
+*/
+
+header {
+    background-color: #DAF7A6;
+	height : 150px; /* Banner area */
+} 
+
+
+
+#Logo {
+    margin: 0;
+    position: relative;
+    bottom: 50px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+#sidenav {
+    background-color: #2F4858;
+	width : 250px;  /* appropriate width for this sidebar area */
+	float : left;   /* float left to allow main content to sit next to it */
+	height: 900px;  /* set a height as needed if main page text is wrapping below sidebar; */
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#sidenav p {
+    width: 250px;
+    margin-top: 10px;
+}
+
+#main {
+    margin-top: 10px;
+	margin-left: 300px; /* nav's width above to keep content away from nav */	
+}
+
+ol {
+    margin-left: 25px;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+dd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+	margin-top: 10px; /* optionally separate copyright from main content by some amount */
+}
+
+
+
+/* Layout Styles feedback form and thank you pages:  */
+
+
+fieldset {
+    width: 400px;
+    background-color: floralwhite;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-family: Georgia, Times, serif;  
+}
+
+input[type=checkbox] {
+    margin-left: 25px;
+}
+
+
+.floatright{
+    float: right;
+    margin-left: 30px;
+}   

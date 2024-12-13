@@ -1,0 +1,58 @@
+/* Kal Dridi's World main styles 
+	Author: Kal Dridi
+	Description: My style sheet
+*/
+
+header h1 {
+    margin-left: 250px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    margin: 0 40px; 
+    font: 105%/1.2 Verdana, Arial, sans-serif; 
+    background-color: #F6FCEA; 
+    color: #1A5276;
+}
+
+/* Style the side navigation */
+
+#sidenav a {
+    color: #F8FFF8;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#sidenav p a.active {
+    color: #6AA012;
+}
+
+h1 {
+    color: #2F4858;
+    margin: 0px;
+}
+
+h2, h3 {
+    font-family: Georgia, Times, serif; 
+    color: #2F4858;
+}
+
+a {
+    padding: 10px;
+    color: #2F4858; 
+    text-decoration: underline;
+}
+
+#sidenav a:hover	{
+    background: #DAF7A6;
+	color: #1F1C07;
+}
+
+fieldset {
+    width: 400px;
+    background-color: #F3FAE6;
+    margin-bottom: 20px;
+}
